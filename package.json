@@ -1,0 +1,14 @@
+{
+  "name": "lld-problems-server",
+  "version": "1.0.0",
+  "description": "Node.js server for running LLD problems",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "tictactoe": "node src/cli/tictactoe.js"
+  },
+  "keywords": ["lld", "design-patterns", "tictactoe"],
+  "author": "",
+  "license": "MIT"
+}
